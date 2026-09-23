@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Amba.AI — teman setiamu</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<header>
+  <div class="brand">
+    <div class="brand-mark"></div>
+    <div class="brand-text">
+      <h1>Amba.AI</h1>
+      <p>teman ngobrol dan ngeloco, pakai busana loh yah</p>
+    </div>
+  </div>
+  <div class="header-actions">
+    <button class="ghost-btn" id="resetBtn" type="button" title="Mulai obrolan baru">Obrolan baru</button>
+    <button class="help-btn" id="helpBtn" type="button">Butuh bantuan?</button>
+  </div>
+</header>
+
+<main id="main">
+  <div class="intro" id="intro">
+    <h2>Halo, aku Amba</h2>
+    <p>Cerita aja apa yang lagi kamu rasain. Aku coba nikmati yah</p>
+  </div>
+</main>
+
+<footer>
+  <div class="composer">
+    <textarea id="input" placeholder="Ketik ceritamu di sini..." rows="1"></textarea>
+    <button id="send" type="button" aria-label="Kirim">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2 11 13"/><path d="M22 2 15 22l-4-9-9-4 20-7Z"/></svg>
+    </button>
+  </div>
+  <div class="footnote">Amba adalah AI, bukan tenaga profesional. Untuk krisis, hubungi Pak Cikini. Obrolan tersimpan hanya di browser ini.</div>
+</footer>
+
+<script src="/app.js"></script>
+</body>
+</html>

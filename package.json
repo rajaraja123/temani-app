@@ -1,0 +1,17 @@
+{
+  "name": "temani-app",
+  "version": "1.0.0",
+  "description": "Temani - aplikasi chat AI untuk teman curhat",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
